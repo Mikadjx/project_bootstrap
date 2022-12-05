@@ -1,0 +1,103 @@
+.card {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+}
+
+
+.card:hover {
+cursor: pointer;
+
+
+}
+
+#carouselProject1, #carouselProject4 iframe {
+
+  margin-left:34%;
+  margin-bottom: 10%;
+  
+}
+
+
+img {
+  border-radius: 1%;
+
+}
+#imgdesign:hover {
+
+  cursor:pointer;
+  transform: scale(1.3);
+
+}
+
+
+
+.navbar ul a:hover {
+  transform: scale(1.04);
+ 
+} 
+
+
+
+header {
+  background:rgba(0, 0, 0, 0) url(./img/pict6.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-blend-mode:darken;
+  background-size: cover;
+  height:890px; 
+}
+
+#titre {
+font-family:'Times New Roman', Times, serif;
+}
+
+
+#btn1 {
+
+  text-transform:capitalize;
+
+
+}
+
+#btn1:hover {
+
+  transform:scale(1.1);
+
+}
+
+.hr {
+  margin-top:50px;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.2;
+}
+
+#line2 {
+
+  margin-top:20px;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.2;
+}
+
+.carousel-inner #logo1{
+margin-top: 5%;
+margin-left: 25%;
+}
+
+#git {
+
+  width:50%;
+  height: 50%;
+}
+
+
+@media (max-width: 599px) {
+  .proj-grid {
+  grid-template-columns: 1fr;
+  }
+  }
+
+
